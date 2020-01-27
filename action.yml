@@ -5,7 +5,7 @@ branding:
   color: 'green'
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: 'anotherdave/sonarcloud-github-action:1.0.0'
 inputs:
   projectBaseDir:
     description: 'Set the sonar.projectBaseDir analysis property'
